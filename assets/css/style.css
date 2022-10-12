@@ -42,10 +42,6 @@ body {
   max-height: 400px !important;
   opacity: 1 !important;
   transition: 3s !important;
-  display: flex !important;
-  flex-direction: column !important;
-  align-items: center !important;
-  justify-content: center !important;
   overflow: visible !important;
 }
 
@@ -71,7 +67,7 @@ section.puma_video {
   justify-content: center;
 }
 section.puma_video video.video {
-  width: 100%;
+  width: 90%;
 }
 
 .puma_produit {
@@ -104,9 +100,13 @@ section.puma_video video.video {
 }
 
 .puma_adresse {
-  max-height: -400px;
+  max-height: 0;
   overflow: hidden;
   opacity: 0;
+  display: flex !important;
+  flex-direction: column !important;
+  align-items: center !important;
+  justify-content: center !important;
 }
 .puma_adresse p:nth-child(1) {
   margin-bottom: 5px;

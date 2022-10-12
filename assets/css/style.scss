@@ -46,13 +46,8 @@ body {
     max-height: 400px!important;
     opacity: 1!important;
     transition: 3s!important;
-    display: flex!important;
-    flex-direction: column!important;
-    align-items: center!important;
-    justify-content: center!important;
     overflow: visible!important;
 }
-
 
 // WWWWWWWWWWWWWWWWWWWWWW HEADER WWWWWWWWWWWWWWWWWWWWWW
 header {
@@ -82,7 +77,7 @@ section.puma_video {
     justify-content: center;
 
     video.video {
-        width: 100%;
+        width: 90%;
     }
 }
 
@@ -128,10 +123,15 @@ section.puma_video {
 
 // section adresse
 .puma_adresse {
-    max-height: -400px;
+    max-height: 0;
     overflow: hidden;
     opacity: 0;
     //overflow: hidden;
+    
+    display: flex!important;
+    flex-direction: column!important;
+    align-items: center!important;
+    justify-content: center!important;
     p:nth-child(1) {
         margin-bottom: 5px;
         font-size: 1.4rem;
