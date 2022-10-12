@@ -21,17 +21,12 @@ body {
   font-weight: bold;
   max-width: 750px;
   margin: 0 auto;
-  border: 2px solid #ff0000;
   height: 100vh;
   width: 100vw;
   position: relative;
 }
 
 .puma_video, .puma_produit, .puma_adresse {
-  height: 40vh;
-}
-
-.puma_produit, .puma_adresse {
   height: 35vh;
 }
 

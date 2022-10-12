@@ -24,7 +24,6 @@ body {
     font-weight: bold;
     max-width: 750px; // pour du format mobile
     margin: 0 auto;
-    border: 2px solid #ff0000;
     height: 100vh;
     width: 100vw;
     position: relative;
@@ -32,13 +31,8 @@ body {
 
 
 .puma_video, .puma_produit,.puma_adresse {
-    height: 40vh;
-}
-
-.puma_produit,.puma_adresse {
     height: 35vh;
 }
-
 
 .hide {
     max-height: 0!important; 
