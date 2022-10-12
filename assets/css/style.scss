@@ -31,7 +31,7 @@ body {
 
 
 .puma_video,.puma_adresse {
-    height: 35vh;
+    height: 40vh;
 }
 
 .puma_produit {
@@ -50,6 +50,7 @@ body {
     flex-direction: column!important;
     align-items: center!important;
     justify-content: center!important;
+    overflow: visible!important;
 }
 
 
@@ -128,6 +129,7 @@ section.puma_video {
 // section adresse
 .puma_adresse {
     max-height: -400px;
+    overflow: hidden;
     opacity: 0;
     //overflow: hidden;
     p:nth-child(1) {
@@ -140,8 +142,8 @@ section.puma_video {
     }
 
     iframe {
-        width: 50vw;
-        height: 50vh;
+        height: 150px;
+        width: 150px;
         border-radius: 100%;
     }
 }

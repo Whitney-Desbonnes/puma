@@ -27,7 +27,7 @@ body {
 }
 
 .puma_video, .puma_adresse {
-  height: 35vh;
+  height: 40vh;
 }
 
 .puma_produit {
@@ -46,6 +46,7 @@ body {
   flex-direction: column !important;
   align-items: center !important;
   justify-content: center !important;
+  overflow: visible !important;
 }
 
 header {
@@ -104,6 +105,7 @@ section.puma_video video.video {
 
 .puma_adresse {
   max-height: -400px;
+  overflow: hidden;
   opacity: 0;
 }
 .puma_adresse p:nth-child(1) {
@@ -114,8 +116,8 @@ section.puma_video video.video {
   margin-bottom: 10px;
 }
 .puma_adresse iframe {
-  width: 50vw;
-  height: 50vh;
+  height: 150px;
+  width: 150px;
   border-radius: 100%;
 }
 
