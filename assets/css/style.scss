@@ -30,8 +30,12 @@ body {
 }
 
 
-.puma_video, .puma_produit,.puma_adresse {
+.puma_video,.puma_adresse {
     height: 35vh;
+}
+
+.puma_produit {
+    height: 30vh;
 }
 
 .hide {
@@ -52,12 +56,11 @@ body {
 // WWWWWWWWWWWWWWWWWWWWWW HEADER WWWWWWWWWWWWWWWWWWWWWW
 header {
     padding: 3%;
-    height: 15vh;
+    height: 10vh;
     // logo
     .logo {
         transform: translateX(10%);
-        width: 100%;
-        max-width: 150px;
+        height: 100%;
     }
 }
 
@@ -90,7 +93,7 @@ section.puma_video {
     flex-wrap: wrap;
 
     .produit {
-        max-height: 190px;
+        height: 85%;
         width: auto;
         margin-bottom: 20px;
     }
@@ -128,17 +131,17 @@ section.puma_video {
     opacity: 0;
     //overflow: hidden;
     p:nth-child(1) {
-        margin-bottom: 20px;
-        font-size: 1.2rem;
+        margin-bottom: 5px;
+        font-size: 1.4rem;
     }
 
     p:nth-child(2) {
-        margin-bottom: 20px;
+        margin-bottom: 10px;
     }
 
     iframe {
-        width: 100px;
-        height: 100px;
+        width: 50vw;
+        height: 50vh;
         border-radius: 100%;
     }
 }

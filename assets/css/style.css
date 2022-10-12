@@ -26,8 +26,12 @@ body {
   position: relative;
 }
 
-.puma_video, .puma_produit, .puma_adresse {
+.puma_video, .puma_adresse {
   height: 35vh;
+}
+
+.puma_produit {
+  height: 30vh;
 }
 
 .hide {
@@ -46,12 +50,11 @@ body {
 
 header {
   padding: 3%;
-  height: 15vh;
+  height: 10vh;
 }
 header .logo {
   transform: translateX(10%);
-  width: 100%;
-  max-width: 150px;
+  height: 100%;
 }
 
 main {
@@ -77,7 +80,7 @@ section.puma_video video.video {
   flex-wrap: wrap;
 }
 .puma_produit .produit {
-  max-height: 190px;
+  height: 85%;
   width: auto;
   margin-bottom: 20px;
 }
@@ -104,15 +107,15 @@ section.puma_video video.video {
   opacity: 0;
 }
 .puma_adresse p:nth-child(1) {
-  margin-bottom: 20px;
-  font-size: 1.2rem;
+  margin-bottom: 5px;
+  font-size: 1.4rem;
 }
 .puma_adresse p:nth-child(2) {
-  margin-bottom: 20px;
+  margin-bottom: 10px;
 }
 .puma_adresse iframe {
-  width: 100px;
-  height: 100px;
+  width: 50vw;
+  height: 50vh;
   border-radius: 100%;
 }
 
