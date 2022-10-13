@@ -76,7 +76,7 @@ section.puma_video {
   justify-content: center;
 }
 section.puma_video video {
-  width: 90%;
+  width: 100%;
 }
 
 .puma_produit {
