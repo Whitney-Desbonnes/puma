@@ -67,10 +67,6 @@ header {
   height: 100%;
 }
 
-main {
-  padding: 0 25px;
-}
-
 section.puma_video {
   max-height: 390px;
   overflow: hidden;
@@ -119,18 +115,13 @@ section.puma_video video {
   border-radius: 100%;
 }
 
-footer div, footer p {
+footer div:nth-child(1) {
   position: fixed;
   bottom: 0px;
   right: 0;
   left: 0;
   margin-left: auto;
   margin-right: auto;
-}
-footer p {
-  z-index: 1;
-  color: #000000;
-  font-size: 2.5rem;
 }
 footer img {
   width: 100%;
@@ -170,4 +161,14 @@ footer .bounce {
   60% {
     transform: translateY(-15px);
   }
+}
+footer .wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+footer .wrapper .link-text {
+  position: absolute;
+  z-index: 1;
+  font-size: 2.3rem;
 }/*# sourceMappingURL=style.css.map */

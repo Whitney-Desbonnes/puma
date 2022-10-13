@@ -79,10 +79,6 @@ header {
 
 
 // WWWWWWWWWWWWWWWWWWWWWW MAIN WWWWWWWWWWWWWWWWWWWWWW
-main {
-    padding: 0 25px;
-}
-
 // section video
 section.puma_video {
     max-height: 390px;
@@ -149,7 +145,7 @@ section.puma_video {
 
 // WWWWWWWWWWWWWWWWWWWWWW FOOTER WWWWWWWWWWWWWWWWWWWWWW
 footer {
-    div, p {
+    div:nth-child(1){
         position: fixed;
         bottom: 0px;
         right: 0;
@@ -158,20 +154,13 @@ footer {
         margin-right: auto;
     }
 
-    // texte "J'y vais"
-    p {
-        z-index: 1;
-        color: #000000;
-        font-size: 2.5rem;
-    }
-
-    // style de toute les img
+    // style de toutes les img
     img {
         width: 100%;
         max-width: 750px;
         vertical-align: bottom;
     }
-    
+
     // img fleche
     .arrow {
         display: block;
@@ -191,4 +180,18 @@ footer {
         60% {transform: translateY(-15px);}
     }
     // fin animation de la fleche
+
+    // contient le texte et l'image ellipse
+    .wrapper {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        // texte "J'y vais" ligne a href
+        .link-text {
+            position: absolute;
+            z-index: 1;
+            font-size: 2.3rem;
+        }
+    }
 }
