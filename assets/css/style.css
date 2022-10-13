@@ -123,11 +123,6 @@ footer div:nth-child(1) {
   margin-left: auto;
   margin-right: auto;
 }
-footer img {
-  width: 100%;
-  max-width: 750px;
-  vertical-align: bottom;
-}
 footer .arrow {
   display: block;
   max-width: 40px;
@@ -166,9 +161,17 @@ footer .wrapper {
   display: flex;
   justify-content: center;
   align-items: center;
+  cursor: pointer;
+  position: relative;
 }
-footer .wrapper .link-text {
+footer .wrapper .text {
   position: absolute;
   z-index: 1;
   font-size: 2.3rem;
+  color: #000000;
+}
+footer .wrapper img {
+  width: 100%;
+  max-width: 750px;
+  vertical-align: bottom;
 }/*# sourceMappingURL=style.css.map */
