@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Nunito&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed&display=swap");
 *, *::after, *::before {
   padding: 0;
   margin: 0;
@@ -11,7 +11,7 @@ html {
 
 body {
   background: linear-gradient(to right, #0c0a1e, #100612);
-  font-family: "Nunito", Arial, sans-serif;
+  font-family: "Barlow Semi Condensed", Arial, sans-serif;
   color: #ffffff;
   font-size: 1.2rem;
   letter-spacing: 2px;
@@ -89,7 +89,7 @@ section.puma_video video {
   align-items: center;
 }
 .puma_produit .produit {
-  width: 25%;
+  height: 100%;
 }
 .puma_produit .reduction {
   width: 45%;
@@ -141,7 +141,7 @@ footer .arrow {
   display: block;
   max-width: 40px;
   max-height: 200px;
-  margin: 0 auto;
+  margin: 0 auto 10px;
   transition: 2s;
   cursor: pointer;
 }
